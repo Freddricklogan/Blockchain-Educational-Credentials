@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment
+.env*
+
+# Build artifacts
+build/
+dist/
+coverage/
+src/contracts/build/
+
+# IDE files
+.idea/
+.vscode/
+*.sublime-*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs
+*.log
+npm-debug.log*
