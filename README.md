@@ -1,6 +1,6 @@
 # Blockchain Educational Credentials Platform
 
-![Blockchain Credentials Banner](documentation/images/banner.jpg)
+<img src="documentation/images/banner.jpg" alt="Portfolio Overview" width="60%">
 
 ## Project Overview
 A comprehensive blockchain solution for educational credential issuance, verification, and management. Designed for institutions, government agencies, and workforce organizations seeking to implement tamper-proof, verifiable credentials.
