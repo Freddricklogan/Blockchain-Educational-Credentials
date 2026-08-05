@@ -1,5 +1,8 @@
 # Blockchain Educational Credentials Platform
 
+**[Live demo / docs](https://freddricklogan.github.io/blockchain-educational-credentials/)** &nbsp;|&nbsp; [Portfolio](https://fredlogan.phd) &nbsp;|&nbsp; [All Projects](https://freddricklogan.github.io/projects/)
+
+
 <img src="documentation/images/blockchain.jpg" alt="Portfolio Overview" width="60%">
 
 ## Project Overview
