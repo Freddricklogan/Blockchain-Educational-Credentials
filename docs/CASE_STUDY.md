@@ -30,7 +30,7 @@ What was added: a README that describes the repository as found and points to th
 
 ## 6. Evidence
 
-The internal link check reports 5 references and 0 broken. There are no tests, because there is no runnable code: the contract was never compiled in this repository and the component cannot resolve its imports. The successor has 133 tests; its numbers belong to its own case study. The claims retracted from the old README are listed in the audit with the code that contradicts them.
+The internal link check reports 3 references and 0 broken. There are no tests, because there is no runnable code: the contract was never compiled in this repository and the component cannot resolve its imports. The successor has 133 tests; its numbers belong to its own case study. The claims retracted from the old README are listed in the audit with the code that contradicts them.
 
 ## 7. What it would take to run this in production
 
