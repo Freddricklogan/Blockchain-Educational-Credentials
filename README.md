@@ -89,14 +89,14 @@ repository.
 ```bash
 git clone https://github.com/Freddricklogan/Blockchain-Educational-Credentials.git
 cd Blockchain-Educational-Credentials
-make check          # internal Markdown link check (5 references, 0 broken)
+make check          # internal Markdown link check (3 references, 0 broken)
 ```
 
 **Verification — the numbers this repository actually produced:**
 
 | Check | Result |
 | --- | --- |
-| Internal Markdown links | **5 references, 0 broken** |
+| Internal Markdown links | **3 references, 0 broken** |
 | Tests | none — no runnable code; see [VeriCred](https://github.com/Freddricklogan/verifiable-academic-credentials) for the tested implementation |
 
 ## 6. Live Demo & Production Showcase
