@@ -1,0 +1,37 @@
+name: CI/CD
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  lint:
+    name: Lint (internal Markdown links)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: make check
+
+  link-check:
+    name: Link check (advisory)
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --no-progress --max-concurrency 4 --accept 200,206,429,999
+            --exclude 'github.com/${{ github.repository }}/actions'
+            README.md docs/CASE_STUDY.md AUDIT.md
+          fail: true
