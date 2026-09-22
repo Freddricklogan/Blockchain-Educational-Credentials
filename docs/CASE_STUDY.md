@@ -30,7 +30,7 @@ What was added: a README that describes the repository as found and points to th
 
 ## 6. Evidence
 
-The internal link check reports 3 references and 0 broken. There are no tests, because there is no runnable code: the contract was never compiled in this repository and the component cannot resolve its imports. The successor has 133 tests; its numbers belong to its own case study. The claims retracted from the old README are listed in the audit with the code that contradicts them.
+The internal link check reports 4 references and 0 broken. There are no tests, because there is no runnable code: the contract was never compiled in this repository and the component cannot resolve its imports. The successor has 133 tests; its numbers belong to its own case study. The claims retracted from the old README are listed in the audit with the code that contradicts them.
 
 ## 7. What it would take to run this in production
 
@@ -38,7 +38,7 @@ Nothing here should run in production. Someone who wanted the on-chain design wo
 
 ## 8. Limits and next steps
 
-The paper is an outline with no references and its case-studies section names categories, not cases; it is described as such and left alone. No licence was ever stated for the documents; choosing one is the only change I would still make here. There is no next step for the code.
+The paper is an outline with no references and its case-studies section names categories, not cases; it is described as such and left alone. The documents are now CC BY 4.0 and the code MIT, the split the other framework repositories use. There is no next step for the code.
 
 ## 9. Who should look at this
 
