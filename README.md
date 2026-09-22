@@ -12,6 +12,7 @@
 [![CI/CD](https://github.com/Freddricklogan/Blockchain-Educational-Credentials/actions/workflows/deploy.yml/badge.svg)](https://github.com/Freddricklogan/Blockchain-Educational-Credentials/actions/workflows/deploy.yml)
 [![Status archived concept](https://img.shields.io/badge/status-archived%20concept-lightgrey)](#1-executive-summary--business-impact)
 [![Successor VeriCred](https://img.shields.io/badge/successor-VeriCred-brightgreen)](https://github.com/Freddricklogan/verifiable-academic-credentials)
+[![License CC BY 4.0 / MIT](https://img.shields.io/badge/license-CC%20BY%204.0%20%2F%20MIT-blue)](LICENSE)
 
 ## 1. Executive Summary & Business Impact
 
@@ -89,14 +90,14 @@ repository.
 ```bash
 git clone https://github.com/Freddricklogan/Blockchain-Educational-Credentials.git
 cd Blockchain-Educational-Credentials
-make check          # internal Markdown link check (3 references, 0 broken)
+make check          # internal Markdown link check (4 references, 0 broken)
 ```
 
 **Verification — the numbers this repository actually produced:**
 
 | Check | Result |
 | --- | --- |
-| Internal Markdown links | **3 references, 0 broken** |
+| Internal Markdown links | **4 references, 0 broken** |
 | Tests | none — no runnable code; see [VeriCred](https://github.com/Freddricklogan/verifiable-academic-credentials) for the tested implementation |
 
 ## 6. Live Demo & Production Showcase
@@ -108,6 +109,4 @@ No live demo. The successor's demo is at
 
 ## License
 
-The contract carries an MIT SPDX header. No licence was stated for the
-documents; they remain the author's, all rights reserved, until one is
-chosen.
+Paper and documentation (`paper/`, `policy/`, `documentation/`, the audit and this README): [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Code (`src/`, `scripts/`, workflows): MIT. Both are recorded in [LICENSE](LICENSE) — the same split AI-Ethics-Education-Framework uses.
